@@ -1,4 +1,4 @@
-# Compiling Life Trimmer
+# compiling-life Trimmer
 
 ## Overview
 Compiling Life Trimmer is a web-based tool for trimming and downloading video files. This project provides an user interface with interactive elements, making video editing easy and accessible.
