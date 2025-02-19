@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>compiling_life Video Trimmer</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+<img src="personal-Icon copy.png" alt="Logo" class="logo">
+
+<h1>compiling_life Video Trimmer</h1>
+
+</header>
+
+<main>
+
+<div class="button-container">
+
+<label for="videoUpload" class="custom-file-upload">Choose a Video</label>
+
+<button id="downloadBtn">Download Trimmed Video</button>
+
+</div>        
+
+<input type="file" id="videoUpload" accept="video/*">
+
+<video id="videoPlayer" controls></video>
+
+<div class="slider-container">
+
+<div id="slider">
+
+<div id="slider-track"></div>
+
+<div id="start-handle" class="handle"></div>
+
+<div id="end-handle" class="handle"></div>
+
+<div id="start-time-label" class="time-label">0:00</div> 
+
+<div id="end-time-label" class="time-label">0:00</div>
+
+</div>
+
+</div>
+
+<a href="https://compiling-life-personal.onrender.com/" target="_blank" class="visit-website-btn">Visit My Personal Website</a>
+
+</main>    
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
